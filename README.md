@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+Pawfect Partner - Pet Adoption App
+==================================
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Pawfect Partner is a full-stack mobile app built with **React Native**, designed to streamline the pet adoption process. Users can post pets for adoption, browse available pets, and communicate with potential adopters through chat. Built with **Expo**, integrated with **Firebase** for database and storage, and featuring **Clerk Authentication** for secure access, this app provides a seamless experience for both adopters and pet owners.
 
-## Get started
+Key Features
+------------
 
-1. Install dependencies
+-   **Post and Adopt**: Users can post pets for adoption or browse available pets for adoption.
+-   **Chat Messaging**: Users can communicate through real-time chat, powered by **Gifted Chat**.
+-   **Chat Inbox**: Centralized chat inbox for easy access to all messages.
+-   **Profile Management**: Manage user profiles and posted pets.
+-   **Manage Posts**: Update or remove pet posts at any time.
 
-   ```bash
-   npm install
-   ```
+Technology Stack
+----------------
 
-2. Start the app
+-   **React Native**: For building the cross-platform mobile app.
+-   **Expo**: Streamlined development with easy testing and deployment.
+-   **Firebase**:
+    -   **Firestore** for database management.
+    -   **Firebase Storage** for managing pet images and media.
+-   **Clerk Authentication**: Secure user authentication and profile management.
+-   **Gifted Chat**: Library used to build chat messaging functionalities.
+-   **React Native Expo Router**: For seamless in-app navigation.
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Screenshot_20240914_173444](https://github.com/user-attachments/assets/6fbe6cfd-d23e-4d94-8abc-cdba9eb05325)
+![Screenshot_20240914_173622](https://github.com/user-attachments/assets/4ef7cf3d-da02-4d25-918e-10d37950a3b5)
+![Screenshot_20240914_173634](https://github.com/user-attachments/assets/928c31d5-672e-4262-a8a6-517c2688312e)
+![Screenshot_20240914_173701](https://github.com/user-attachments/assets/3582e102-711c-44a2-990b-d168990d1754)
+![Screenshot_20240914_173939](https://github.com/user-attachments/assets/ae370476-8adb-4bc8-abab-ad064e7cf456)
